@@ -4,18 +4,23 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
+    width: 20%;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    left:0;
+    height: 100%;
+
 }
 
 .site-title {
+    
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
+    text-align: center;
+    display: block;
+    // letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    // float: left;
 
     &,
     &:visited {
@@ -24,20 +29,18 @@
 }
 
 .site-nav {
-    float: right;
+    // float: right;
     line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
+    clear: both;
 
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        display: block;
+        text-align: center;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            // margin-left: 20px;
         }
     }
 
@@ -82,6 +85,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+
         }
     }
 }
@@ -163,6 +167,8 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    width: 80%;
+    float: right;
 }
 
 .page-heading {
