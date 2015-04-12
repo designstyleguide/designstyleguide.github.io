@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://designstyleguide.github.io/jekyll/update/2015/04/12/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="style guide" href="http://designstyleguide.github.io/feed.xml" />
+  <script src="../responsive-nav.js"></script>
 </head>
 
 
@@ -23,43 +24,57 @@
 
     <a class="site-title" href="/">style guide</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav nav-collapse">
 
-      <div class="trigger">
+     <!--  <div class="trigger"> -->
+        <ul>
         
           
-          <a class="page-link" href="/colors/">colors</a>
-          
-        
-          
-        
-          
-          <a class="page-link" href="/font/">font</a>
+          <li><a class="page-link" href="/button/">button</a></li>
           
         
           
-          <a class="page-link" href="/grid/">grid</a>
-          
-        
-          
-          <a class="page-link" href="/icon/">icon</a>
+          <li><a class="page-link" href="/colors/">colors</a></li>
           
         
           
         
           
-        
-          
-          <a class="page-link" href="/logo/">logo</a>
+          <li><a class="page-link" href="/font/">font</a></li>
           
         
           
-        
-          
-          <a class="page-link" href="/process/">process</a>
+          <li><a class="page-link" href="/grid/">grid</a></li>
           
         
-      </div>
+          
+          <li><a class="page-link" href="/icon/">icon</a></li>
+          
+        
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/logo/">logo</a></li>
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/process/">process</a></li>
+          
+        
+
+        <!--below urls are not working  -->
+      <!--     <li><a class="page-link" href="">Font</a></li>
+          <li><a class="page-link" href="">Logo</a></li>
+          <li><a class="page-link" href="">Colors</a></li>
+          <li><a class="page-link" href="">button</a></li> -->
+
+
+        </ul>
+     <!--  </div> -->
     </nav>
 
   </div>
@@ -131,7 +146,9 @@
 
 </footer>
  -->
-
+	<script>
+	  var nav = responsiveNav(".nav-collapse");
+	</script>
   </body>
 
 </html>

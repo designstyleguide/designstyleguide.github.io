@@ -169,6 +169,12 @@ pre {
   position: fixed;
   left: 0;
   height: 100%; }
+  @media screen and (max-width: 800px) {
+    .site-header {
+      width: 100%;
+      min-height: 100px; }
+      .site-header .site-nav {
+        float: right; } }
 
 .site-title {
   font-size: 26px;
@@ -180,44 +186,21 @@ pre {
     color: #424242; }
 
 .site-nav {
-  line-height: 56px;
-  clear: both; }
+  line-height: 56px; }
   .site-nav .page-link {
     color: #111;
     line-height: 1.5;
     display: block;
     text-align: center; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
+  .site-nav .trigger {
+    clear: both;
+    display: none; }
+  .site-nav:hover .trigger {
+    display: block;
+    padding-bottom: 5px; }
+  .site-nav .page-link {
+    display: block;
+    padding: 5px 10px; }
 
 /**
  * Site footer
@@ -466,3 +449,45 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+  @media screen and (max-width: 800px) {
+    .js .nav-collapse {
+      position: absolute; } }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.js .nav-collapse.closed {
+  max-height: none; }
+
+.nav-toggle {
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+  @media screen and (max-width: 800px) {
+    .nav-toggle {
+      display: block; } }

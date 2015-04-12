@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://designstyleguide.github.io/grid/">
   <link rel="alternate" type="application/rss+xml" title="style guide" href="http://designstyleguide.github.io/feed.xml" />
+  <script src="../responsive-nav.js"></script>
 </head>
 
 
@@ -24,43 +25,57 @@
 
     <a class="site-title" href="/">style guide</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav nav-collapse">
 
-      <div class="trigger">
+     <!--  <div class="trigger"> -->
+        <ul>
         
           
-          <a class="page-link" href="/colors/">colors</a>
-          
-        
-          
-        
-          
-          <a class="page-link" href="/font/">font</a>
+          <li><a class="page-link" href="/button/">button</a></li>
           
         
           
-          <a class="page-link" href="/grid/">grid</a>
-          
-        
-          
-          <a class="page-link" href="/icon/">icon</a>
+          <li><a class="page-link" href="/colors/">colors</a></li>
           
         
           
         
           
-        
-          
-          <a class="page-link" href="/logo/">logo</a>
+          <li><a class="page-link" href="/font/">font</a></li>
           
         
           
-        
-          
-          <a class="page-link" href="/process/">process</a>
+          <li><a class="page-link" href="/grid/">grid</a></li>
           
         
-      </div>
+          
+          <li><a class="page-link" href="/icon/">icon</a></li>
+          
+        
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/logo/">logo</a></li>
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/process/">process</a></li>
+          
+        
+
+        <!--below urls are not working  -->
+      <!--     <li><a class="page-link" href="">Font</a></li>
+          <li><a class="page-link" href="">Logo</a></li>
+          <li><a class="page-link" href="">Colors</a></li>
+          <li><a class="page-link" href="">button</a></li> -->
+
+
+        </ul>
+     <!--  </div> -->
     </nav>
 
   </div>
@@ -77,19 +92,16 @@
   </header>
 
   <article class="post-content">
-    <h1>Logo</h1>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+    <h2>Grid</h2>
 
-<p><img src="http://styles.getkirby.com/content/03-logo/logo.png" alt="Kirby Demo" /></p>
-
-<h2>Download</h2>
-
-<ul>
-<li><a href="http://styles.getkirby.com/logo.bw.eps">logo.bw.eps</a></li>
-<li><a href="http://styles.getkirby.com/logo.4c.eps">logo.4c.eps</a></li>
-<li><a href="http://styles.getkirby.com/logo.bw.png">logo.bw.png</a></li>
-<li><a href="http://styles.getkirby.com/logo.4c.png">logo.4c.png</a></li>
-</ul>
+<pre class=""><code>&lt;div class=&quot;columns&quot;&gt;
+  &lt;div class=&quot;column three&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column three&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column three last&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
   </article>
 
@@ -130,7 +142,9 @@
 
 </footer>
  -->
-
+	<script>
+	  var nav = responsiveNav(".nav-collapse");
+	</script>
   </body>
 
 </html>

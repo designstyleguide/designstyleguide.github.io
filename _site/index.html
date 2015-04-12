@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://designstyleguide.github.io/">
   <link rel="alternate" type="application/rss+xml" title="style guide" href="http://designstyleguide.github.io/feed.xml" />
+  <script src="../responsive-nav.js"></script>
 </head>
 
 
@@ -24,43 +25,57 @@
 
     <a class="site-title" href="/">style guide</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav nav-collapse">
 
-      <div class="trigger">
+     <!--  <div class="trigger"> -->
+        <ul>
         
           
-          <a class="page-link" href="/colors/">colors</a>
-          
-        
-          
-        
-          
-          <a class="page-link" href="/font/">font</a>
+          <li><a class="page-link" href="/button/">button</a></li>
           
         
           
-          <a class="page-link" href="/grid/">grid</a>
-          
-        
-          
-          <a class="page-link" href="/icon/">icon</a>
+          <li><a class="page-link" href="/colors/">colors</a></li>
           
         
           
         
           
-        
-          
-          <a class="page-link" href="/logo/">logo</a>
+          <li><a class="page-link" href="/font/">font</a></li>
           
         
           
-        
-          
-          <a class="page-link" href="/process/">process</a>
+          <li><a class="page-link" href="/grid/">grid</a></li>
           
         
-      </div>
+          
+          <li><a class="page-link" href="/icon/">icon</a></li>
+          
+        
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/logo/">logo</a></li>
+          
+        
+          
+        
+          
+          <li><a class="page-link" href="/process/">process</a></li>
+          
+        
+
+        <!--below urls are not working  -->
+      <!--     <li><a class="page-link" href="">Font</a></li>
+          <li><a class="page-link" href="">Logo</a></li>
+          <li><a class="page-link" href="">Colors</a></li>
+          <li><a class="page-link" href="">button</a></li> -->
+
+
+        </ul>
+     <!--  </div> -->
     </nav>
 
   </div>
@@ -70,11 +85,19 @@
 
     <div class="page-content">
       <div class="wrapper">
-         <h1>Style Guide</h1>
- <p>Welcome to Kirby Styleguide Theme. <br />
-It's a simple theme for creating brand or product styleguides based on the <a href="http://getkirby.com">Kirby CMS</a>. </p>
+         <h1>Style Guide - Earth Day 2015</h1>
+ <p>Welcome to this style guide.<br />
+Here you will find some pre-designed elements, graphics or rules to follow to help make sure the redesign of Earth Day 2015 look and feel consist. 
+<br>
+The website can be found at <a href="http://xinyudesign.com/earth_day_2015">Earth Day 2015 Redesign</a>.</p>
 
-<p>All brand elements in this demo are made up by me and are not related to any existing brand. </p>
+<p>
+The idea behind the site is to inspire everyday people to join a local event. 
+<br>
+the redesign is intended to add a fun vibe to it, so the brand will look cool, charismatic, and gear more towards the next generation. 
+<br>I want the website to feel like 
+<img src="http://designstyleguide.github.io/images/twins.png"> 
+</p>
 
 <h2>Download</h2>
 
@@ -132,7 +155,9 @@ It's a simple theme for creating brand or product styleguides based on the <a hr
 
 </footer>
  -->
-
+	<script>
+	  var nav = responsiveNav(".nav-collapse");
+	</script>
   </body>
 
 </html>
