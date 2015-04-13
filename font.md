@@ -1,6 +1,6 @@
 ---
 layout: page
-title: font
+title: Font
 permalink: /font/
 ---
 

@@ -1,17 +1,54 @@
 ---
 layout: page
-title: grid
+title: Grid
 permalink: /grid/
 ---
-When deciding on the amount of space to put between objects as well as their widths and heights, use multiples of eight. For example, the grid columns below are 48 pixels tall with 16 pixels of space between them.
+The site was built on a 12-column responsive grid system, with 3% of space between each column, and 4rem in between each section. 
 
-The site was built on a reposive grid system, with 3% in between each column and 
+<section>
+	<div class="col12">12 columns</div>
+</section>
+<section>
+	<div class="col6">6 columns</div><div class="col6">6 columns</div>
+</section>
+<section>
+	<div class="col4">4 columns</div><div class="col4">4 columns</div><div class="col4">4 columns</div>
+</section>
+<section>
+	<div class="col3">3 columns</div><div class="col3">3 columns</div><div class="col3">3 columns</div><div class="col3">3 columns</div>
+</section>
 
-<pre class=""><code>&lt;div class=&quot;columns&quot;&gt;
-  &lt;div class=&quot;column three&quot;&gt;
+<pre class=""><code>&lt;section&gt;
+  &lt;div class=&quot;col12&quot;&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;column three&quot;&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;div class=&quot;col6&quot;&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;column three last&quot;&gt;
+  &lt;div class=&quot;col6&quot;&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;div class=&quot;col4&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col4&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col4&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;div class=&quot;col3&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col3&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col3&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col3&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+
+

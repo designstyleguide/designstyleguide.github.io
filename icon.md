@@ -1,11 +1,9 @@
 ---
 layout: page
-title: icon
+title: Icon
 permalink: /icon/
 ---
-
-<h1>Logo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+Our icons are simple with mostly sharp edges. Try to keep your outlines to a 2 pixel width.
 
 <p><img src="http://styles.getkirby.com/content/03-logo/logo.png" alt="Kirby Demo" /></p>
 

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Color
-permalink: /color/
+title: Imagery
+permalink: /imagery/
 ---
 
-<p>The primary color will be used for highlighted elements like buttons or links, and black for copy. Secondary colors will be for things like </p>
+When you need an image to accompany some copy, Choose a primary or secondary color scheme and stick to it. 
+
 
 <h2>Web</h2>
 

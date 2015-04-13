@@ -1,9 +1,12 @@
 ---
 layout: page
-title: Button
-permalink: /button/
+title: Form
+permalink: /form/
 ---
-I want the primary button as tall as the input 40px tall, and has the white background. The button text will be black. The hover state will have the secondary colar as the background. 
+label will use the same font as heading 4.
+text input box will be 40px tall, and have a white background. 
+placeholder text will be 1rem, regular weight and light grey. 
+
 
 <h3>Standard</h3>
 
