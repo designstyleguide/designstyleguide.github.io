@@ -57,8 +57,21 @@ li > ol {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
+.fontspage h1, .fontspage h2, .fontspage h3, .fontspage h4, .fontspage h5, .fontspage h6 {
+  font-weight: 700;
+  text-transform: uppercase; }
+.fontspage h1 {
+  font-size: 3rem; }
+.fontspage h2 {
+  font-size: 2.5rem; }
+.fontspage h3 {
+  font-size: 2rem; }
+.fontspage h4 {
+  font-size: 1.5rem; }
+.fontspage h5 {
+  font-size: 1.25rem; }
+.fontspage h6 {
+  font-size: 1rem; }
 
 /**
  * Links
@@ -491,3 +504,13 @@ pre {
   @media screen and (max-width: 800px) {
     .nav-toggle {
       display: block; } }
+
+.fonts {
+  font-family: "proxima-nova-extra-condensed";
+  letter-spacing: 0.15em;
+  line-height: 1.2; }
+
+.bodyfont {
+  font-family: "proxima-nova-soft",sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6; }
