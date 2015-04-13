@@ -27,7 +27,17 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$primary-color: #dbf235;
+$primary-color2: rgba(232, 244, 9, .7);
+$secondary-color: #51dad0;
+$secondary-color2: rgba(81, 218, 208, .7);
+$link-color: #51dad0;
+$date-color:#fd4857;
+$date-color2:rgba(253, 72, 87, .5);;
+$description-color: rgba(255, 255, 255, .8);
+$logo:rgba(252, 170, 92, .8);
 
+$header-color: #51dad0;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
