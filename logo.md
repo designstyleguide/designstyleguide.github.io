@@ -7,8 +7,7 @@ permalink: /logo/
 <h1>Logo</h1>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
 
-<div class="logo"><div class="logo0"></div><div class="logo_words"><h5>earth<br>day<br>2015</h3></div></div>
-
+<div class="logo"></div>
 <h2>Download</h2>
 
 <ul>
