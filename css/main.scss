@@ -163,3 +163,30 @@ $gut: 3%;
   text-transform: uppercase;
   color: $primary-color;
 }
+
+.past1 {
+  width:100px;
+  height: 100px;
+  background: url("{{ site.url }}/image/icon1.svg") no-repeat center center;
+  background-size:100px;
+}
+
+.past2 {
+  background: url("{{ site.url }}/image/icon2.svg") no-repeat center center;
+  background-size:100px;
+}
+
+.past3 {
+  background: url("{{ site.url }}/image/icon3.svg") no-repeat center center;
+  background-size:100px;
+}
+
+.past4 {
+  background: url("{{ site.url }}/image/icon4.svg") no-repeat center center;
+  background-size:100px;
+}
+
+.past5 {
+  background: url("{{ site.url }}/image/icon5.svg") no-repeat center center;
+  background-size:100px;
+}
